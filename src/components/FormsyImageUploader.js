@@ -48,7 +48,7 @@ class FormsyImageUploader extends Component {
 
         { this.props.previewImage &&
           <div id="image-preview">
-            <img src={this.state.image} alt="preview of uploaded image"/>
+            <image src={this.state.image} alt="preview of uploaded image"/>
           </div>
         }
 
